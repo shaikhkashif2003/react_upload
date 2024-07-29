@@ -62,9 +62,9 @@ function App() {
   return (
     // '<>' jxs fragment is used while there are multiple components
     <>
-    {/* <Navbar  /> */}
+    <Navbar  />
     
-    {/* <Navbar title="Textutils" about='About' mode={mode} toggleMode={toggleMode} /> */}
+   <Navbar title="Textutils" about='About' mode={mode} toggleMode={toggleMode} />
 
     <RouterProvider router={router} />
     <Alert alert={alert} />
